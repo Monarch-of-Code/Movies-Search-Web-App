@@ -1,10 +1,7 @@
 
-            const API_KEY = "b9a5b305518c1bdb66af5f4a6fe0cd49";
-            const BASE_URL = 'https://api.themoviedb.org/3';
-            const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
-;
-            const BASE_URL = 'https://api.themoviedb.org/3';
-            const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
+const API_KEY = "b9a5b305518c1bdb66af5f4a6fe0cd49";
+const BASE_URL = 'https://api.themoviedb.org/3';
+const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
 
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const SEARCH_URL = BASE_URL + `/search/movie?` + API_KEY + `&query=`;
